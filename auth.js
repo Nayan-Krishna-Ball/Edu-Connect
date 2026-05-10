@@ -97,7 +97,8 @@ export const {
       },
     }),
   ],
-  /* callbacks: {
+  /* This callbacks is need for acesstoken and refreshtoken  
+  callbacks: {
         async jwt({ token, user, account }) {
           console.log(`JWT token: ${JSON.stringify(token)}`);
           console.log(`JWT Account: ${JSON.stringify(account)}`);
